@@ -16,7 +16,7 @@ Os testes e análises realizados na topologia foram de: geração e criação, i
 			1.2.4. *49 hosts will create a three switches and so on.
 
 	2. XTERM
-		2.1. Setting the TCP window size (50 hosts) and checking the data transfer quantity.
+		2.1. Set the TCP window size (50 hosts) and chec the data transfer.
 			2.1.1. Considering the default time set in 10 sec, in default (max size) the data transfer quantity will be more than the TCP window size set in 8000.
 			*Client host:
 				iperf -c 10.0.0.50 -p 5566
